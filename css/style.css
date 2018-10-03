@@ -13,7 +13,7 @@
 body {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
@@ -59,7 +59,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -354,8 +354,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 .gtco-staff img {
-  height: 200px;
-  width: 150px;
+  height: 250px;
+  width: 200px;
   margin-bottom: 15px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 50%;
 }
 .gtco-staff h3 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 5px;
   font-weight: 700;
 }
@@ -507,10 +507,45 @@ form label {
 #gtco-header .display-tc h2,
 #gtco-counter .display-tc h2,
 .gtco-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+#gtco-header .display-tc h2,
+#gtco-counter .display-tc h2,
+.gtco-cover .display-tc h2 {
+  font-size: 20px;
+  }
+}
+
+#gtco-header .display-tc p,
+#gtco-counter .display-tc p,
+.gtco-cover .display-tc p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+#gtco-header .display-tc p,
+#gtco-counter .display-tc p,
+.gtco-cover .display-tc p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: white;
+  padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #gtco-header .display-tc p,
+  #gtco-counter .display-tc p,
+  .gtco-cover .display-tc p {
+    font-size: 14px;
+    }
+  }
 
 #gtco-counter {
   text-align: center;
@@ -556,7 +591,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 3em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -673,11 +708,12 @@ form label {
 
 .gtco-heading {
   margin-bottom: 5em;
-  padding: 0 10px;
 }
+
 .gtco-heading.gtco-heading-sm {
   margin-bottom: 2em;
 }
+
 .gtco-heading h2 {
   font-size: 36px;
   margin-bottom: 10px;
@@ -685,8 +721,9 @@ form label {
   font-weight: bold;
   color: #000;
 }
+
 .gtco-heading p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #828282;
 }
@@ -794,7 +831,7 @@ form label {
   color: #b3b3b3;
 }
 
-@media screen and (min-width: 1121px) {
+/* @media screen and (min-width: 1121px) {
   .gtco-tabs .gtco-tab-nav li.one-line#mef a {
     padding: 30px 20px 35px;
     width: 100%;
@@ -805,7 +842,7 @@ form label {
     border-radius: 4px;
     color: #b3b3b3;
   }
-}
+} */
 
 @media screen and (max-width: 909px) {
   .gtco-tabs .gtco-tab-nav li.one-line#mef a {
@@ -1448,7 +1485,8 @@ form label {
 
 .js .animate-box {
   opacity: 0;
-  padding: 0 30px;
+  padding: 0 50px;
 }
+
 
 /*# sourceMappingURL=style.css.map */
