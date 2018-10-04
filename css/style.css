@@ -810,7 +810,7 @@ form label {
 }
 
 .gtco-tabs .gtco-tab-nav li#gcs a {
-  padding: 20px 30px;
+  padding: 20px 10px;
   width: 100%;
   float: left;
   -webkit-border-radius: 4px;
@@ -831,9 +831,9 @@ form label {
   color: #b3b3b3;
 }
 
-/* @media screen and (min-width: 1121px) {
+@media screen and (max-width: 909px) {
   .gtco-tabs .gtco-tab-nav li.one-line#mef a {
-    padding: 30px 20px 35px;
+    padding: 20px 10px;
     width: 100%;
     float: left;
     -webkit-border-radius: 4px;
@@ -842,9 +842,22 @@ form label {
     border-radius: 4px;
     color: #b3b3b3;
   }
-} */
+}
 
-@media screen and (max-width: 909px) {
+@media screen and (max-width: 793px) {
+  .gtco-tabs .gtco-tab-nav li.one-line#mef a {
+    padding: 5px 10px;
+    width: 100%;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    color: #b3b3b3;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .gtco-tabs .gtco-tab-nav li.one-line#mef a {
     padding: 20px;
     width: 100%;
@@ -882,6 +895,19 @@ form label {
 @media screen and (max-width: 909px) {
   .gtco-tabs .gtco-tab-nav li.one-line a {
     padding: 30px 20px 10px 20px;
+    width: 100%;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    color: #b3b3b3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gtco-tabs .gtco-tab-nav li.one-line a {
+    padding: 20px;
     width: 100%;
     float: left;
     -webkit-border-radius: 4px;
