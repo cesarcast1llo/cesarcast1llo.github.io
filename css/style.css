@@ -248,7 +248,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-video {
-  height: 350px;
+  height: 230px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.gtco-video#one_pic {
+  height: 365px;
   overflow: hidden;
   margin-bottom: 30px;
   -webkit-border-radius: 7px;
@@ -256,6 +266,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
 .gtco-video.gtco-video-sm {
   height: 250px;
 }
@@ -354,7 +365,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 .gtco-staff img {
-  height: 250px;
+  height: 230px;
   width: 200px;
   margin-bottom: 15px;
   -webkit-border-radius: 50%;
@@ -420,6 +431,10 @@ li.social-linkedin {
 }
 .gtco-social-icons li a i {
   font-size: 40px;
+}
+
+.gtco-social-icons#footer li a i {
+  font-size: 20px;
 }
 
 .gtco-contact-info {
@@ -591,7 +606,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 4em 0;
+  padding: 1em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -602,7 +617,7 @@ form label {
   #gtco-subscribe,
   #gtco-footer,
   .gtco-section {
-    padding: 3em 0;
+    padding: 2em 0;
   }
 }
 
@@ -1155,7 +1170,6 @@ form label {
 .uppercase {
   font-size: 14px;
   color: #000;
-  margin-bottom: 10px;
   font-weight: 700;
   text-transform: uppercase;
 }
