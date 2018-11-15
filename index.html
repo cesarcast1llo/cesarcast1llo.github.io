@@ -1,235 +1,358 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/styles/main.css">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<title>Cesar Castillo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/src/numscroller-1.0.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <title>Rooster Grin Front End Dev Test</title>
-  </head>
-  <body>
-    <header></header>
-    <div class="container carousel-slider">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="main-title">
-            <h1>Lorem Ipsm Lorem Ipsum</h1>
-            <button id="button">Popup Form</button>
-          </div>
-          <div class="item active">
-              <div class="slider-images1"></div>
-          </div>
-          <div class="item">
-            <div class="slider-images2"></div>
-          </div>
-          <div class="item">
-            <div class="slider-images3"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="popup" class="popup">
-      <div class="popup-form">
-        <form>
-          <h1 class="sub-title">LOREM IPSUM</h1>
-          <br/>
-          <div class="row">
-            <div class="col-md-12">
-              <label for="fname">Your Name</label>
-                <input type="text" id="fname" name="fullname">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <label for="email">Your Email</label>
-              <input type="text" id="email">
-            </div>
-            <div class="col-md-6">
-              <label for="phonenumber">Phone Number</label>
-              <input type="number" id="phonenumber">
-            </div>
-          </div>
-          <br/>
-          <div class="row">
-            <div class="col-md-12">
-              <label for="subject">Message</label>
-                <textarea id="subject" name="subject" style="height:150px;"></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 percentage">
-              <button class="close-popup">Close</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="container wrapper">
-      <div class="row row-text-spacing">
-        <div class="col-lg-6"><p class="info-icon">Lorem ipsum dolor sit amet, ac dis arcu libero, pulvinar vitae lectus cursus.</p></div>
-        <div class="col-lg-6"><p class="info-icon">Lorem ipsum dolor sit amet, ac dis arcu libero, pulvinar vitae lectus cursus.</p></div>
-      </div>
-      <div class="row row-text-spacing icon-description">
-        <div class="col-lg-6"><p class="info-icon">Lorem ipsum dolor sit amet, ac dis arcu libero, pulvinar vitae lectus cursus.</p></div>
-        <div class="col-lg-6"><p class="info-icon">Lorem ipsum dolor sit amet, ac dis arcu libero, pulvinar vitae lectus cursus.</p></div>
-      </div>
-    </div>
-    <div class="gradient-blue">
-      <div class="container wrapper">
-        <div class="row row-text-spacing">
-          <div class="col-12  justify-content-center gradient-text">
-            <p>Lorem ipsum dolor sit amet, ac dis arcu libero, pulvinar vitae lectus cursus. Purus libero amet, at dui, tincidunt nunc vestibulum in justo, a faucibus ipsum hendrerit semper ipsum ac.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container wrapper">
-      <div class="row">
-        <div class="sub-title"><strong>LOREM </strong><em>IPSUM</em></div>
-      </div>
-      <div class="row vertical-align row-text-spacing">
-        <div class="col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nunc magna, quis ultricies enim scelerisque eu. Curabitur varius dui quis dolor consequat, ac ornare lectus venenatis. Quisque pellentesque iaculis placerat varius dui quis dolor consequat, ac ornare lectus venenatis. Quisque pellentesque iaculis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="col-lg-6 percentage-button">
-          <a href="https://github.com/cesarcast1llo" target="_blank"><button>Button</button></a>
-        </div>
-      </div>
-      <div class="row row-text-spacing">
-        <div id="leftpercentage" class="col-lg-4 percentage">
-          <span class='numscroller' data-min='1' data-max='240' data-delay='5' data-increment='5'>240</span><span>%</span>
-          <p>Lorem ipsum dolor sit amet ipsum dolor ipsum dolor</p>
-        </div>
-        <div class="col-lg-4 percentage">
-          <span class='numscroller' data-min='1' data-max='105' data-delay='5' data-increment='5'>105</span><span>%</span>
-          <p>Lorem ipsum dolor sit amet ipsum dolor ipsum dolor</p>
-        </div>
-        <div id="rightpercentage" class="col-lg-4 percentage">
-          <span class='numscroller' data-min='1' data-max='159' data-delay='5' data-increment='5'>159</span><span>%</span>
-          <p>Lorem ipsum dolor sit amet ipsum dolor ipsum dolor</p>
-        </div>
-      </div>
-    </div>
-    <div class="container carousel-slider" >
-      <div class="row">
-        <div class="sub-title"><strong>LOREM </strong><em>IPSUM</em></div>
-      </div>
-      <div class="row vertical-align">
-        <div id="left" class="col-lg-6 picture-description">
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <h3>Lorem ipsum dolor sit amet lorem</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nunc magna, quis ultricies enim scelerisque eu. Curabitur varius dui quis dolor consequat, ac ornare lectus venenatis. Quisque pellentesque iaculis placerat. Curabitur varius dui quis dolor consequat, ac ornare lectus venenatis. Quisque pellentesque iaculis placerat.
-          </p>
-        </div>
-        <div class="col-lg-6 scaled-image">
-          <img class="scaled-image" src="/assets/cellphone.jpg" alt="Texting On Cellphone">
-        </div>
-      </div>
-      <div class="row vertical-align">
-        <div id="float" class="col-lg-6 scaled-image">
-          <img class="scaled-image" src="/assets/graph.jpg" alt="Stocks Graph">
-        </div>
-        <div id="right" class="col-lg-6 picture-description">
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <h3>Lorem ipsum dolor sit amet lorem</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus nunc magna, quis ultricies enim scelerisque eu. Curabitur varius dui quis dolor consequat, ac ornare lectus venenatis. Quisque pellentesque iaculis placerat. Curabitur varius dui quis dolor consequat, ac ornare lectus venenatis. Quisque pellentesque iaculis placerat.
-          </p>
-        </div>
-      </div>
-    </div>
-    <a href="mailto:cescastillo25@gmail.com?Subject=You%20are%20hired!%20😎" target="_top" style="font-weight: 700;"><img class="sticky" src="/assets/envelope-icon.svg" alt="Envelope"></a>
-    <footer>
-      <div id="footer" class="container wrapper">
-        <div class="row">
-          <div id="footer-input" class="col-lg-6 input-form">
-            <form>
-              <input type="text" value="Email" onfocus="this.value=''" name="fname">
-            </form>
-          </div>
-          <div id="footer-input" class="col-lg-6 input-form">
-            <a href="https://www.linkedin.com/in/cescastillo/" target="_blank"><input class="subscribe-button" type="button" value="Subscribe"></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 d-flex flex-nowrap input-form">
-            <h3 style="text-decoration: underline;">Lorem</h3>
-            <ul class="footer-list">
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 d-flex flex-nowrap input-form">
-            <h3 style="text-decoration: underline;">Lorem</h3>
-            <ul class="footer-list">
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 d-flex flex-nowrap input-form">
-            <h3 style="text-decoration: underline;">Lorem</h3>
-            <ul class="footer-list">
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-              <li class="footer-list-item">
-                Lorem
-              </li>
-            </ul>
-            <div class="index-social-container">
-              <a href="https://github.com/cesarcast1llo" target="_blank"><img class="index-social-icon" alt="Github Icon" src="/assets/github.svg"/></a>
-              <a href="https://www.linkedin.com/in/cescastillo/" target="_blank"><img class="index-social-icon" alt="LinkedIn Icon" src="/assets/linked.svg"/></a>
-              <a href="https://twitter.com/cesarcast1llo" target="_blank"><img class="index-social-icon" alt="Twitter Icon" src="/assets/twtiter.svg"/></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blue-slanted-image"></div>
-    </footer>
-    <script src="src/script.js"></script>
-  </body>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	</head>
+
+	<body>	
+	<div class="gtco-loader"></div>
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/code.jpg);">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Cesar Castillo</h1>
+							<h2>Front-End Developer</h2>
+							<p >
+								“With everything that has happened to you, you can either feel sorry for yourself or treat what has happened as a gift. Everything is either an opportunity to grow or an obstacle to keep you from growing. You get to choose.”
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="gtco-team" class="gtco-section">
+			<div class="gtco-container intro">
+				<div class="row row-pb-md">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeIn">
+						<div class="gtco-staff">
+							<img src="images/ces1.png" alt="Cesar Castillo">
+							<h3>Cesar Castillo</h3>
+							<strong class="role">Front-End Developer</strong>
+							<p>
+								Growing up I spent my time focused on chasing a dream of being a professional athlete. After 16 years of sacrifices, perseverance, countless hours of practice, and obtaining a Division I athletic soccer scholarship, the dream of obtaining professionalism within my sport became a reality. <br/><br/>
+								The career of a professional athlete is short-lived, but the skills and experiences attained during the journey last you a lifetime. I apply the same drive to succeed as a Front-End Developer where I showcase my retentive learning, creative thinking, and superb work ethic. I like finding something new everyday that I can create with web development. 
+								<br/><br/>
+								When I am not huddled over my laptop finding a missing semi-colon, I enjoy spending time with family, watching quality fútbol, and finding a new place to travel to.<br/><br/>
+								Want to code or just have a chat? Shoot me an <a href="mailto:cescastillo25@gmail.com?Subject=You're%20pretty%20cool,%20lets%20code%20😎" target="_top" style="font-weight: 700;">email</a><br/>
+								or make sure to checkout my social media below. 
+							</p>
+							<ul class="gtco-social-icons">
+								<li class="social-linkedin">
+									<a href="https://www.linkedin.com/in/cescastillo/" target="_blank">
+										<i class="icon-linkedin" style="color:black;"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://github.com/cesarcast1llo" target="_blank">
+										<i class="icon-github" style="color:black;"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/cesarcast1llo" target="_blank">
+										<i class="icon-twitter" style="color:black;"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+
+	<div class="gtco-section">
+		<div class="gtco-container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>Why Choose Me?</h2>
+					<p>
+						Versatile Front-end Developer with 2+ years of experience designing, developing, and managing complex sites and internal frameworks. Specializes in React.js, HTML5/CSS3, web & mobile responsive design.
+					</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-8">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check" style="color:black;"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Javascript - 2 years</h3>
+							<p>React.js, Javascript, jQuery.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check" style="color:black;"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Ruby - 1 year</h3>
+							<p>Ruby & Ruby on Rails</p>
+						</div>
+					</div>
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check" style="color:black;"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Web Design - 4 years</h3>
+							<p>HTML5, HTML4, CSS3, CSS, Sass, Wordpress, Bootstrap, Responsive Web Design</p>
+						</div>
+					</div>
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check" style="color:black;"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Social Media - 2 years</h3>
+							<p>
+								Proven track record of increased social media engagement. Specialties: Facebook (Ads, Boosts, and Insights), Twitter (Analytics and Promote Mode), LinkedIn, and Google Analytics.
+							</p>
+						</div>
+					</div>
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check" style="color:black;"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Other Tools</h3>
+							<p>Git/Github Workflow, SEO, Salesforce, Veeva, JIRA, Photoshop, InDesign, Sketch, and Zeplin. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="gtco-services">
+		<div class="gtco-container">
+			
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>Portfolio</h2>
+					<p>Below are some projects I've created and collaborated with.</p>
+				</div>
+			</div>
+
+			<div class="row animate-box">
+				
+				<div class="gtco-tabs">
+					<ul class="gtco-tab-nav">
+						<li class="active" id="gcs">
+							<a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Giant Creative<br/> Strategy</span></a>
+						</li>
+						<li class="one-line">
+							<a href="#" data-tab="2"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">Burger Builder<br/>&nbsp;</span></a>
+						</li>
+						<li class="one-line" id="gcs">
+							<a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">Tic-Tac-Toe<br/>Game<br/></span></a>
+						</li>
+						<li class="one-line">
+							<a href="#" data-tab="4"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">UnMarked<br/>&nbsp;</span></a>
+						</li>
+						<li class="one-line" id="mef">
+							<a href="#" data-tab="5"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Marin Economic Forum</span></a>
+						</li>
+					</ul>
+
+					<!-- Tabs -->
+					<div class="gtco-tab-content-wrap">
+						<div class="gtco-tab-content tab-content active" data-tab-content="1">
+							<div class="col-md-5">
+								<a href="https://www.facebook.com/AdcetrisUS/" target="_blank">
+									<div class="gtco-video gtco-bg" style="background-image: url('images/fb.png')">
+									</div>
+								</a>
+								<a href="https://www.adcetris.com/" target="_blank">
+									<div class="gtco-video gtco-bg" style="background-image: url('images/adcetris.png')">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-7">
+								<h2>Giant Creative Strategy Internship</h2>
+								<p>During my internship at Giant Creative Strategy, I got the opportunity to develop and assist different projects for well-known pharmaceutical companies. Some of the projects were developed using React.js, Bootstrap, Javascript, and HTML5, HTML4, CSS & Sass.</p>
+								<br/>
+								<div class="row">
+									<div class="col-md-6">
+										<h2 class="uppercase">Websites and Facebook Company Pages</h2>
+										<p>
+										Worked with other lead developers to develop digital experiences that are deployed on web, mobile, and custom apps to meet specific needs for medical technology clients.<br/>
+										Developed customized Facebook company page tabs while using a secure HTTP server to host the page.
+										</p>
+									</div>
+									<div class="col-md-6">
+										<h2 class="uppercase">Pharmaceutical Company Emails</h2>
+										<p>Since pharmaceutical client representatives are always reminding clients of new and upcoming medicines, we created HTML emails using React.js that display correctly across all major desktop and mobile email clients. We developed the emails using HTML4 and inline CSS to meet browser specificity.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="gtco-tab-content tab-content" data-tab-content="2">
+							<div class="col-md-6 col-md-push-6">
+								<a href="https://github.com/cesarcast1llo/burger_builder" target="_blank">
+									<div class="gtco-video gtco-bg" id="one_pic" style="background-image: url('images/burgerbuilder.png')">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6 col-md-pull-6">
+								<h2>Burger Builder using React.js</h2>
+								<p>
+									<a href="https://github.com/cesarcast1llo/burger_builder" target="_blank"><i class="icon-github" style="color:black;"></i> Github Code </a><br/><br/>
+									This project was developed using React.js while taking Udemy course "React 16 - The Complete Guide". Users can add or remove ingredients to the burger and the burger will update on change. The total price of the burger will also be updated on changes made to addition or deletion of ingredients. <br/>**still developing - HTTP/AJAX, Routing, and Validation to be added**<br/><br/>
+									<a href="https://burger-builder-udemy.herokuapp.com/" target="_blank" style="font-weight: 700">Use the Burger Builder here</a>
+								</p>
+							</div>	
+						</div>
+
+						<div class="gtco-tab-content tab-content" data-tab-content="3">
+							<div class="col-md-6 col-md-push-6">
+								<a href="https://github.com/cesarcast1llo/TicTacToe_React" target="_blank">
+									<div class="gtco-video gtco-bg" id="one_pic" style="background-image: url('images/tictactoe.png')">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6 col-md-pull-6">
+								<h2>Tic-Tac-Toe Game using React.js</h2>
+								<p>
+									<a href="https://github.com/cesarcast1llo/TicTacToe_React" target="_blank"><i class="icon-github" style="color:black;"></i> Github Code </a><br/><br/>
+									This project was developed using React.js and simple CSS. Game starts with first player using X's and second player using O's. If there is a tie, the game will ask if players would like to play again, if there isn't a tie, it will announce the winner.<br/><br/>
+									<a href="https://tic-tac-toereact.herokuapp.com/" target="_blank" style="font-weight: 700">Play the game here</a>
+								</p>
+							</div>	
+						</div>
+
+						<div class="gtco-tab-content tab-content" data-tab-content="4">
+							<div class="col-md-6 col-md-push-6">
+								<a href="https://github.com/cesarcast1llo/UnMarked_Final_Project" target="_blank">
+									<div class="gtco-video gtco-bg" id="one_pic" style="background-image: url('https://i.imgur.com/T1yxtY9.jpg')">
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6 col-md-pull-6">
+								<h2>UnMarked</h2>
+								<p>									
+									<a href="https://github.com/cesarcast1llo/UnMarked_Final_Project" target="_blank"><i class="icon-github" style="color:black;"></i> Github Code </a><br/><br/>
+									This project was created with <a href="https://github.com/ark47" target="_blank">Chris Nunez</a>. This project was our final Cohort project replicating ESPN FC website with user authenticated articles, live scores and standings. Rails, Javascript, XML, Devise, CSS grids were used to create this project. User authentication is required before posting an article, commenting on an article, and "liking" an article. If user has not created user login credentials, they will not be able to post, comment, nor like any articles.</p>
+							</div>
+						</div>
+
+						<div class="gtco-tab-content tab-content" data-tab-content="5">
+							<div class="col-md-6">
+								<a href="http://www.marineconomicforum.org" target="_blank">
+									<div class="gtco-video gtco-bg" id="one_pic" style="background-image: url('images/mef.png')">
+									</div>
+								</a>	
+							</div>
+							<div class="col-md-6">
+								<h2>Marin Economic Forum</h2>
+								<p id="mef_description">
+									<a href="http://www.marineconomicforum.org" target="_blank" style="font-weight: 700">MEF Website</a><br/>
+									While at MEF, duties included managing our Wordpress site, updating site articles up to three times a week, and administrating social media accounts (Facebook, Twitter, LinkedIn, & MailChimp account). I maintained and developed <a href="http://www.marineconomicforum.org" target="_blank" style="font-weight: 700">MEF Website</a> using Wordpress and added widgets (Donate, Paypal, TicketTailor and others). Implementation of automated Tweets as well as MailChimp templates for newsletters, recent news and blogs. Although I was the only developer, learned CMS techniques and documented tools to facilitate changes for a non-technical user.
+								</p>
+								<div class="row">
+									<div class="col-md-6">
+										<h2 class="uppercase">Followers on social media after 6 weeks..</h2>
+										<p>
+											Facebook: +35 (238%)<br/>
+											Twitter: +22 (5%)<br/>
+											LinkedIn: +18 (38%)
+										</p>
+									</div>
+									<div class="col-md-6">
+										<h2 class="uppercase">Followers on social media after 10 weeks..</h2>
+										<p>
+											Facebook: +26 (128%)<br/>
+											Twitter: +18 (4%)<br/>
+											LinkedIn: +12 (18%)
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="gtco-footer" role="contentinfo">
+		<div class="gtco-container">
+			<div class="row copyright">
+				<div class="col-md-12">
+					<p class="pull-left">
+						<small class="block">&copy; 2018 Cesar Castillo</small> 
+					</p>
+					<div class="pull-right">
+						<ul id="footer" class="gtco-social-icons pull-right">
+							<li class="social-linkedin">
+								<a href="https://www.linkedin.com/in/cescastillo/" target="_blank">
+									<i class="icon-linkedin" style="color:black;"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/cesarcast1llo" target="_blank">
+									<i class="icon-github" style="color:black;"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/cesarcast1llo" target="_blank">
+									<i class="icon-twitter" style="color:black;"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
